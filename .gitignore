@@ -14,6 +14,7 @@ data/
 *.csv
 *.xlsx
 *.json
+!data/walmart_stock.csv
 
 # Environnement virtuel
 venv/
