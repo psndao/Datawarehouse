@@ -1,0 +1,20 @@
+# Ignorer le fichier de configuration des secrets
+.env
+
+# Dossiers Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Notebooks temporaires
+.ipynb_checkpoints/
+
+# Données lourdes ou sensibles
+data/
+*.csv
+*.xlsx
+*.json
+
+# Environnement virtuel
+venv/
+.env/
