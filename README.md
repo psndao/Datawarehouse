@@ -1,10 +1,10 @@
-# 📦 Installation et Configuration de PostgreSQL sous Windows
+# Installation et Configuration de PostgreSQL sous Windows
 
 Ce guide décrit les étapes d'installation et de configuration de PostgreSQL pour un projet de Data Warehouse sur un système Windows. Il ne couvre **pas** la partie Python.
 
 ---
 
-## ✅ Prérequis
+## Prérequis
 
 - Système d'exploitation : Windows 10 ou 11
 - Connexion Internet active
@@ -12,7 +12,7 @@ Ce guide décrit les étapes d'installation et de configuration de PostgreSQL po
 
 ---
 
-## 1. 🧩 Téléchargement de PostgreSQL
+## 1. Téléchargement de PostgreSQL
 
 1. Aller sur le site officiel : [https://www.postgresql.org/download/windows/](https://www.postgresql.org/download/windows/)
 2. Cliquer sur **Download the installer**
@@ -20,7 +20,7 @@ Ce guide décrit les étapes d'installation et de configuration de PostgreSQL po
 
 ---
 
-## 2. ⚙️ Installation de PostgreSQL
+## 2. Installation de PostgreSQL
 
 1. Lancer l’installateur `.exe` téléchargé
 2. Laisser les options par défaut, sauf :
@@ -31,14 +31,14 @@ Ce guide décrit les étapes d'installation et de configuration de PostgreSQL po
 
 ---
 
-## 3. 🧠 (Optionnel) Désactiver Stack Builder
+## 3. Désactiver Stack Builder
 
 À la fin de l'installation, une fenêtre `Stack Builder` peut apparaître.  
 Vous pouvez **fermer ou annuler** cette étape, sauf si vous avez besoin d'extensions spécifiques.
 
 ---
 
-## 4. 🛠️ Ajouter PostgreSQL au PATH
+## 4. Ajouter PostgreSQL au PATH
 
 Pour accéder à `psql` depuis le terminal :
 
@@ -56,7 +56,7 @@ Pour accéder à `psql` depuis le terminal :
 
 ---
 
-## 5. 📥 Connexion à PostgreSQL avec `psql`
+## 5. Connexion à PostgreSQL avec `psql`
 
 Ouvrir PowerShell et taper :
 
